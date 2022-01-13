@@ -1,0 +1,38 @@
+1.install xammp server 
+https://www.apachefriends.org/download.html
+
+2.open xammp and run 
+        -apache server 
+        -sql 
+
+3.To Create database 
+      -open my admin 
+      -create a db named any 
+      -inside db create table named any 
+      -(check ur url which port it is working) 
+      -inside table create 
+               -roll no  (long int)
+               -name     (char 50-60)
+               -mobile no (long int)
+       -save it 
+
+4.In xammp folder->ht docs 
+     -create a folder (which will have all coding)
+     -inside this folder create 
+     -index.html 
+     -inside this write code from classroom
+     -make sure u put the table and data base name same as urs 
+     ie in INSERT INTO YOURTABLENAME 
+     ie $db = YOUR DB name
+    -also make sure the lcoal host is same as ur port
+
+5.Once done go to browser and in url type 
+the file location 
+ie xammp/ht doct...fille name index.html
+
+
+this is task 1
+task2 is 
+-create html file take user input from form 
+-create php file add code 
+in form action= phpfilename 
